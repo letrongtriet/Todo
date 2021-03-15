@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "check_circle-black-24dp.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
