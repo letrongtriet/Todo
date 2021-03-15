@@ -68,7 +68,7 @@ extension LoginViewModel {
             case .signedUp:
                 return "Log In"
             case .noSignedUp:
-                return "Sign Up"
+                return "Enable Secure Login"
             }
         }
     }
