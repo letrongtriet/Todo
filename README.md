@@ -1,10 +1,10 @@
 # TODO App
 
 ## Demo Not Allow FaceID
-![](Demo.gif)
+![](Demo2.gif)
 
 ## Demo Allow FaceID
-![](Demo2.gif)
+![](Demo.gif)
 
 ## Application architecture
 Application is built base on MVVM-C + Dependencies Injection architecture to respect SOLID principle (ModelViewViewModel-Coordinator)
