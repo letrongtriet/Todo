@@ -175,11 +175,9 @@ extension TodoViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        guard !items[indexPath.row].isDone else { return nil }
-
         let action = UIContextualAction(
             style: .normal,
-            title: "Mark as done"
+            title: items[indexPath.row].isDone ? "Mark as UnDone" : "Mark as done"
         ) { [weak self] _, _, completion in
             self?.viewModel.updateItemState(at: indexPath)
             completion(true)
